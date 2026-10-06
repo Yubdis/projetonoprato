@@ -17,3 +17,46 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility; /*otimiza a renderização da fonte para letura, tendo uma melhor qualidade*/
 }
+header{
+    background-image: 
+        linear-gradient(rgba(0,0,0, .6)),
+        url(img/img-hero-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header>div.slogan>h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 180%;
+}
+.btn:link,
+.btn:visited{
+    border: 1px solid #e67e22;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    transition: .3s;
+}
+.btn-full{
+    background-color: #e67e22;
+    margin-right: 20px;
+}
+.btn:hover,
+.btn:active{
+    background-color: #cf6017;
+
+}
+.logo{
+    height: 100px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
