@@ -17,6 +17,10 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility; /*otimiza a renderização da fonte para letura, tendo uma melhor qualidade*/
 }
+
+/******************************************/
+/**********     Menu Header     ***********/
+/******************************************/
 header{
     background-image: 
         linear-gradient(rgba(0,0,0, .6)),
@@ -31,7 +35,7 @@ header>div.slogan>h1{
     font-weight: 300;
     letter-spacing: 1px;
     word-spacing: 4px;
-    font-size: 180%;
+    font-size: 180%; 
 }
 .btn:link,
 .btn:visited{
@@ -52,6 +56,10 @@ header>div.slogan>h1{
     background-color: #cf6017;
 
 }
+.slogan{
+    margin-top: 150px;
+    margin-left: 10%;
+}
 .logo{
     height: 100px;
 }
@@ -59,4 +67,44 @@ header>div.slogan>h1{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+.main-nav>ul{
+    list-style-type: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-nav>ul>li>a:link,
+.main-nav>ul>li>a:visited{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition:  .5s;
+    padding-bottom: 6px;
+}
+.main-nav>ul>li>a:hover,
+.main-nav>ul>li>a:active{
+    border-bottom: 2px solid #e67e22;
+}
+/******************************************/
+/**********     Informações     ***********/
+/******************************************/
+
+section{
+    padding: 80px 0;
+}
+h2{
+    font-size: 180%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.top>p{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145%;
 }
