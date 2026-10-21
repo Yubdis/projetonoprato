@@ -149,3 +149,38 @@ div.info>div{
     font-size: 90%;
     line-height: 145%;
 }
+
+/**********************************************************/
+/***********************    Galeria    ********************/
+/**********************************************************/
+
+.sec-galery ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.sec-galery>ul>li{
+    flex-basis: 250px;
+    flex-grow: 1;
+    overflow: hidden;
+    background-color: #000;
+}
+.sec-galery>ul>li img{
+    width: 100%;
+    transform: scale(1.15);
+    transition: 1s;
+    opacity: .8;
+}
+
+.sec-galery>ul>li img:hover,
+.sec-galery>ul>li img:active{
+    transform: scale(1.25);
+    /* filter: blur(2px); */
+    /* filter: brightness(115%); */
+    /* filter: contrast(120%)saturate(120%); */
+    /* filter: grayscale(70%); */
+    /* filter: sepia(100%); */
+    /* filter: drop-shadow(8px 8px 20px grey); */
+    opacity: 1;
+}
