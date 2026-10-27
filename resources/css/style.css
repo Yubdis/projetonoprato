@@ -161,7 +161,7 @@ div.info>div{
     gap: 5px;
 }
 .sec-galery>ul>li{
-    flex-basis: 250px;
+    flex-basis: 300px;
     flex-grow: 1;
     overflow: hidden;
     background-color: #000;
@@ -183,4 +183,30 @@ div.info>div{
     /* filter: sepia(100%); */
     /* filter: drop-shadow(8px 8px 20px grey); */
     opacity: 1;
+}
+
+/**********************************************************/
+/**********************    Galeria 2    *******************/
+/**********************************************************/
+
+.sec-galery-2>figure{
+    width: 75%;
+    height: 450px;
+    margin: 0 auto;
+    /* background-color: #555; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.sec-galery-2>figure>img{
+    width: 12%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    transition: width ease-in-out 0.5s;
+}
+
+.sec-galery-2>figure>img:hover{
+    width: 50%;
 }
